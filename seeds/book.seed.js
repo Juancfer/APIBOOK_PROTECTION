@@ -7,7 +7,9 @@ const bookList = [
     title: "Harry Potter",
     author: {
       name: "J.K. Rowling",
-      country: "SPAIN"
+      country: "SPAIN",
+      email: "jkrowling@gmail.com",
+      password: "12345678",
     },
     pages: 543,
   },
@@ -15,7 +17,9 @@ const bookList = [
     title: "1984",
     author: {
       name: "George Orwell",
-      country: "GERMANY"
+      country: "GERMANY",
+      email: "gorwell@gmail.com",
+      password: "12345678",
     },
     pages: 328,
   },
@@ -23,7 +27,9 @@ const bookList = [
     title: "To Kill a Mockingbird",
     author: {
       name: "Harper Lee",
-      country: "USA"
+      country: "USA",
+      email: "hlee@gmail.com",
+      password: "12345678",
     },
     pages: 281,
   },
@@ -31,7 +37,9 @@ const bookList = [
     title: "The Great Gatsby",
     author: {
       name: "F. Scott Fitzgerald",
-      country: "USA"
+      country: "USA",
+      email: "fsfitzgerald@gmail.com",
+      password: "12345678",
     },
     pages: 180,
   },
@@ -39,7 +47,9 @@ const bookList = [
     title: "Pride and Prejudice",
     author: {
       name: "Jane Austen",
-      country: "FRANCE"
+      country: "FRANCE",
+      email: "jausten@gmail.com",
+      password: "12345678",
     },
     pages: 279,
   },
@@ -47,7 +57,9 @@ const bookList = [
     title: "100 AÑOS DE SOLEDAD",
     author: {
       name: "Gabriel G. Marquez",
-      country: "COLOMBIA"
+      country: "COLOMBIA",
+      email: "ggmarquez@gmail.com",
+      password: "12345678",
     },
     pages: 350,
   },
@@ -55,7 +67,9 @@ const bookList = [
     title: "DOÑA BARBARA",
     author: {
       name: "Romulo Gallegos",
-      country: "VENEZUELA"
+      country: "VENEZUELA",
+      email: "rgallegos@gmail.com",
+      password: "12345678",
     },
     pages: 320,
   },
@@ -63,7 +77,9 @@ const bookList = [
     title: "LANZAS COLORADAS",
     author: {
       name: "Arturo Uslar Pietri",
-      country: "VENEZUELA"
+      country: "VENEZUELA",
+      email: "aupietri@gmail.com",
+      password: "12345678",
     },
     pages: 320,
   },

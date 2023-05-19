@@ -1,5 +1,6 @@
 const { bookRouter } = require("./routes/book.routes.js");
 const { fileUploadRouter } = require("./routes/file-upload.routes.js");
+const { loginRouter } = require("./routes/login.routes.js");
 const express = require("express");
 const cors = require("cors");
 
@@ -35,6 +36,7 @@ const main = async () => {
   app.use("/public", express.static("public"));
   app.use("/file-upload", fileUploadRouter);
   app.use("/image-upload", bookRouter);
+  app.use("/login", loginRouter);
   app.use("/", router);
 
   app.use((err, req, res, next) => {

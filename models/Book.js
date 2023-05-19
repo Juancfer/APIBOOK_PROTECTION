@@ -13,27 +13,9 @@ const bookSchema = new Schema(
       trim: true,
     },
     author: {
-      type: {
-        name: {
-          type: String,
-          required: true,
-          minLength: [3, "Debe ingresar al menos 3 letras para el nombre"],
-          maxLength: 20,
-          trim: true,
-        },
-        country: {
-          type: String,
-          required: false,
-          enum: allowedCountries,
-          uppercase: true,
-          trim: true,
-        },
-        profileImage: {
-          type: String,
-          required: false,
-        }
-      },
-      required: true,
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Author",
+      required: false,
     },
     pages: {
       type: Number,
